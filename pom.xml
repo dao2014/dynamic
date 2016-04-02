@@ -10,7 +10,6 @@
     <module>com.dao.common</module>
     <module>com.dao.dao</module>
     <module>com.dao.server</module>
-    <module>com.dao.zhibo</module>
     <module>com.dao.conf</module>
   </modules>
 <!-- 项目属性 -->
