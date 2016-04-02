@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.dao</groupId>
+    <artifactId>com.dao</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.dao.sys</groupId>
+  <artifactId>com.dao.sys</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>com.dao.sys Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  <dependency> 
+			<groupId>com.dao.server</groupId>
+			<artifactId>com.dao.server</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>com.dao.sys</finalName>
+  </build>
+</project>
