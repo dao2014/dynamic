@@ -1,0 +1,9 @@
+classes/
+.settings/
+.settings/*
+.settings
+.hibernateSynchronizer3/
+*.class
+.project
+.classpath
+target/
