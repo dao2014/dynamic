@@ -2,7 +2,7 @@ package com.dao.common;
 
 /**
  * Hello world!
- * 
+ *  
  */
 public class App 
 {
