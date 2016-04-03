@@ -1,8 +1,8 @@
 <%
 response.setStatus(404);
-
+String requestType = request.getHeader("X-Requested-With");
 // 如果是异步请求或是手机端，则直接返回信息
-if (Servlets.isAjaxRequest(request)) {
+if (requestType!=null) {
 	out.print("页面不存在.");
 }
 
